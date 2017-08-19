@@ -1,2 +1,2 @@
 # jt-app
-jetone react mobile component he
+jetone react mobile component kao
