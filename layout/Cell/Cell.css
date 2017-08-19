@@ -1,0 +1,49 @@
+/*水平布局*/
+.horizontalLayout{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    /*padding: 10px 15px;*/
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+.horizontalLayout:before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #e5e5e5;
+    color: #e5e5e5;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    left: 12px;
+    z-index: 2;
+}
+/*垂直布局*/
+.verticalLayout{
+    position: relative;
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+.verticalLayout:before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #e5e5e5;
+    color: #e5e5e5;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    left: 12px;
+    z-index: 2;
+}
+.jt_switch {
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}

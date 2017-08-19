@@ -1,0 +1,46 @@
+/*loading*/
+.jt_toastMask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    display: table;
+    z-index: 999999;
+    top: 0;
+}
+.jt_img_divContainer{
+    vertical-align: middle;
+    display: table-cell;
+}
+.jt_loading_img{
+    background: rgba(0, 0, 0, 0.64);
+    padding-bottom: 15px;
+    border-radius: 6px;
+}
+.jt_loadingText{
+    /*margin-top: -45px;
+    color: #696666;*/
+    width: 86px;
+    margin: -35px auto;
+    color: #fffdfd;
+    font-size: 12px;
+}
+/*success/fail*/
+.success_divContainer{
+    width: 200px;
+    min-height: 100px;
+    background: rgba(0, 0, 0, 0.64);
+    margin-top: 50%;
+    border-radius: 6px;
+   margin: 50% auto;
+}
+.success_Img{
+    padding-top: 8px;
+}
+.successText{
+        width: 100%;
+    color: #fffdfd;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 8px;
+}

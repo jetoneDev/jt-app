@@ -1,0 +1,5 @@
+[class^="weui-icon-"]:before, [class*=" weui-icon-"]:before {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: .2em;
+}

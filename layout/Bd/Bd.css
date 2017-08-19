@@ -1,0 +1,5 @@
+.Cell_content{
+     flex: 1;
+    word-break: break-all;
+    margin: auto;
+}
