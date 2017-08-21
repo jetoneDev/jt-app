@@ -2,7 +2,7 @@
 > React Mobile组件：
 
 ## usage
-    npm install jt-app
+    npm install jt-app --save
 
 <span id="index">目录<span>
 ## 0.目录 
