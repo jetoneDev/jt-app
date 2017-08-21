@@ -20,6 +20,8 @@ jetone react mobile component kao
 layoutType | 布局默认inline（横布局）,block(垂直布局)
 clickFunc | 点击事件（默认无点击事件）
 switch | 开关模式，只需在标签switch（默认无）
+
+
 用法 ：
 <Cell layoutType =“block” clickFunc={clickFunc} switch></Cell>
 
@@ -30,7 +32,12 @@ switch | 开关模式，只需在标签switch（默认无）
 参数 | 说明
 ---|---
 layoutType | 布局默认inline（横布局）,block(垂直布局)
-用法：<Hd layoutType="block"></Hd>
+
+
+用法：
+```
+<Hd layoutType="block"></Hd>
+```
 
 [回到目录](#index)
 
@@ -100,13 +107,13 @@ after | 默认值
 ## 1.InputCell（默认为：标题+input）
 
 modelType包括iconInput和默认的标题+input（titleInput）
-参数	说明
-data	数据源（object）
-dataModel	参数（object）
-typingChange
-input的change事件
-clear
-清除input的内容事件
+
+参数 | 说明
+---|---
+data | 数据源（object）
+dataModel | 参数（object）
+typingChange | input的change事件
+clear | 清除input的内容事件
 
 dataModel的属性表：
 modelType | input的组合类别
@@ -138,10 +145,11 @@ dataModel（object） | 参数object
 typingChange | textarea的change事件
 
 dataModel的属性表：
+
 layoutType | 布局类型，默认水平布局（垂直block/水平）
 -----------|------------------------
-modelName | 需要显示给别人看的说明文字，如：姓名
-modelKey | 对应data（数据源）的属性名
+modelName  | 需要显示给别人看的说明文字，如：姓名
+modelKey  | 对应data（数据源）的属性名
 
 
 使用例子
@@ -167,6 +175,8 @@ dataModel | 参数object
 
 
 dataModel的属性表：
+
+
 modelType | textCell的组合类型
 ----------|--------------
 modelName | 显示的自定义的名字,如姓名
@@ -180,6 +190,7 @@ collapseList| 点击列表下拉的显示的内容
 modelKeyOne |左边对应的data值得属性名
 modelKeyTwo |右边对应的data的属性名
 modelLoopKey| 循环获取字段的的data的属性名
+
 
 使用例子
 ```
@@ -204,7 +215,9 @@ data | 数据源（object）
 -----|------------
 dataModel | 参数object
 
+
 dataModel的属性表：
+
 
 modelType | switchCell的组合类型
 ----------|----------------
@@ -259,7 +272,8 @@ data | data数据源（object）
 dataModel | 参数object
 typingChange |select的onchange事件
 
-dataModel的属性表
+dataModel的属性表:
+
 layoutType | 布局类型，默认水平布局（垂直block/水平）
 -----------|------------------------
 modelType | selectCell 的组合类型
@@ -285,6 +299,8 @@ data | data数据源（object）
 dataModel | 参数object
 
 dataModel的属性表：
+
+
 layoutType | 布局类型，默认水平布局（垂直block/水平）
 -----------|------------------------
 modelType | imageCell的组合类型
@@ -305,6 +321,8 @@ data | data数据源（object）
 -----|----------------
 dataModel | 参数object
 dataModel的属性表：
+
+
 modelType | checkBoxCell的类型
 ----------|----------------
 modelName | 自定义名字
@@ -321,7 +339,11 @@ modelType暂时只有默认值
 ----|------
 data | data数据源（object）
 dataModel | 参数object
+
+
 dataModel属性表：
+
+
 modelType | cardList的组合类型
 ----------|--------------
 cardData | 卡片的数据源（Array数组）

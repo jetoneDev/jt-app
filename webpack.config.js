@@ -59,7 +59,7 @@ module.exports = {
                 // use: [
                 //     'file-loader'//加载图片
                 // ]
-                use: "file-loader?name=[name].[ext]&outputPath=dist/images/"//将图片打包到单独的文件夹
+                use: "file-loader?name=[name].[ext]&outputPath=images/"//将图片打包到单独的文件夹
                 // use: "file-loader?name=[name].[ext]&publicPath=assets/foo/&outputPath=dist/images/"//将图片打包到单独的文件夹,publicPath没打包之前所有图片放的位置
             },
             {

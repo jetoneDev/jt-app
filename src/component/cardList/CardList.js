@@ -31,7 +31,6 @@ const CreateFormComponent = (data, dataModel) => {
                                 <div className={style.jt_card_div}>{dataModel.modelCardName}</div>
                                 <div className={style.jt_card_div}>{item[dataModel.modelCardKey]}</div>
                                 <div className={style.jt_circleIcon}>{item[dataModel.modelCardStatus]}
-                                    {/*<img style={{position:"absolute",right:10}} src={passed} alt=""/>*/}
                                 </div>
                             </div>
                             <div className={style.jt_btn_container}>
