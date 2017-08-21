@@ -1,5 +1,8 @@
 # jt-app
-jetone react mobile component kao
+> React Mobile组件：
+
+## usage
+    npm install jt-app
 
 <span id="index">目录<span>
 ## 0.目录 
