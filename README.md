@@ -108,6 +108,7 @@ after | 默认值
 
 modelType包括iconInput和默认的标题+input（titleInput）
 
+
 参数 | 说明
 ---|---
 data | 数据源（object）
@@ -116,6 +117,8 @@ typingChange | input的change事件
 clear | 清除input的内容事件
 
 dataModel的属性表：
+
+
 modelType | input的组合类别
 ----------|-----------
 layoutType | 布局类型，默认水平布局（垂直block/水平）
@@ -210,9 +213,10 @@ collapseFunc: collapseFunc,
 
 ## 4.switchCell(默认为单个的switch(值+switch))
 
-参数	说明
+
+参数 | 说明
+---|---
 data | 数据源（object）
------|------------
 dataModel | 参数object
 
 
@@ -266,11 +270,11 @@ typingChange: (name, age) => switchChange(name, age)
 modelType包括select、selectText、iconTitleText、titleSelectText和默认值（标题+select（textSelect））
 
 
-参数	说明
+参数 | 说明
+---|---
 data | data数据源（object）
------|----------------
 dataModel | 参数object
-typingChange |select的onchange事件
+typingChange | select的onchange事件
 
 dataModel的属性表:
 
@@ -293,9 +297,9 @@ dataSource | select的数据源
 modelType包括image和uploadImg
 
 
-参数列	参数属性名
+参数列 | 参数属性名
+----|------
 data | data数据源（object）
------|----------------
 dataModel | 参数object
 
 dataModel的属性表：
@@ -316,10 +320,11 @@ delImg | 删除图片
 
 ## 7.checkBoxCell 默认为(checkboxText)
 
-参数列	参数属性名
+参数列 | 参数属性名
+----|------
 data | data数据源（object）
------|----------------
 dataModel | 参数object
+
 dataModel的属性表：
 
 
@@ -335,6 +340,7 @@ checkFunc | 选中的点击事件
 ## 8.cardList
 
 modelType暂时只有默认值
+
 参数列 | 参数属性名
 ----|------
 data | data数据源（object）
